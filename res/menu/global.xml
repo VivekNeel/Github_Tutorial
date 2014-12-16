@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/rate"
+        android:orderInCategory="100"
+        android:title="Rate this app"
+        app:showAsAction="never"/>
+     
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="About Developer"
+        app:showAsAction="never"/>
+    
+    
+    <item
+        android:id="@+id/con"
+        android:orderInCategory="100"
+        android:title="Contact Developer"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share this app"
+        app:showAsAction="never"/>
+     
+       
+      <item
+        android:id="@+id/more"
+        android:orderInCategory="100"
+        android:title="Check out my other apps"
+        app:showAsAction="never"/>
+    
+    
+    
+    <item
+        android:id="@+id/ex"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,28 @@
+<html>
+<body bgcolor="#8eb7be">
+
+<h1 style="color:red" >Code:</h1>
+<code>$git diff /*show diff of unstaged changes*/</code>
+<h2 style="color:red" >Explanation:</h2>
+<p>Without any extra arguments, a simple git diff will display in unified diff format (a patch) what code or content you've changed in your project since the last commit that are not yet staged for the next commit snapshot. </p>
+<h3 style="color:red" >Code:</h3>
+<code>$git diff --cached /* show diff of staged changes */ </code>
+<h4 style="color:red" >Explanation:</h4>
+<p>The git diff --cached command will show you what contents have been staged. That is, this will show you the changes that will currently go into the next commit snapshot</p>
+<h3 style="color:red" >Code:</h3>
+<code>$git diff HEAD /* show diff of all staged or unstaged changes */ </code>
+<h4 style="color:red" >Explanation:</h4>
+<p>If you want to see both staged and unstaged changes together, you can run git diff HEAD - this basically means you want to see the difference between your working directory and the last commit, ignoring the staging area</p>
+<h3 style="color:red" >Code:</h3>
+<code>$git diff --stat /* show summary of changes instead of a full diff */ </code>
+<h4 style="color:red" >Explanation:</h4>
+<p>If we don't want the full diff output, but we want more than the git status output, we can use the --stat option, which will give us a summary of changes instead</p>
+
+
+
+
+
+
+
+</body>
+</html>

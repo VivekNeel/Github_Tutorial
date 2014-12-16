@@ -1,0 +1,30 @@
+<html>
+<body bgcolor="#8eb7be">
+
+<h1 style="color:red" >Code:</h1>
+<code>$git reset HEAD /* unstage files from index and reset pointer to HEAD */</code>
+
+<h3 style="color:red" >Explaination:</h3>
+<p>First, you can use it to unstage something that has been accidentally staged. Let's say that you have modified two files and want to record them into two different commits. You should stage and commit one, then stage and commit the other. If you accidentally stage both of them, how do you un-stage one? You do it with git reset HEAD -- file. Technically you don't have to add the -- - it is used to tell Git when you have stopped listing options and are now listing file paths, but it's probably good to get into the habit of using it to separate options from paths even if you don't need to. </p>
+
+<h1 style="color:red" >Code:</h1>
+<code>$git reset --soft /* moves HEAD to specified commit reference, index and staging are untouched */</code>
+
+<h3 style="color:red" >Explaination:</h3>
+<p>The first thing git reset does is undo the last commit and put the files back onto the stage. If you include the --soft flag this is where it stops. For example, if you run git reset --soft HEAD~ (the parent of the HEAD) the last commit will be undone and the files touched will be back on the stage again. </p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git reset --hard /* unstage files AND undo any changes in the working directory since last commit */</code>
+
+<h3 style="color:red" >Explaination:</h3>
+<p>The third option is to go --hard and make your working directory look like the index, unstage files and undo any changes made since the last commit. This is the most dangerous option and not working directory safe. Any changes not in the index or have not been commited will be lost.</p>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

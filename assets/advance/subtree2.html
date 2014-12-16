@@ -1,0 +1,19 @@
+<html>
+<body bgcolor="#8eb7be">
+<p>1.Add a new remote URL pointing to the separate project that we're interested in.</p>
+
+<h1 style="color:red" >Code:</h1>
+<code>$git remote add -f neel git@github.com:VivekNeel/neel.git</code>
+ 
+ <p>2.Merge the neel project into the local Git project. This doesn't change any of your files locally, but it does prepare Git for the next step.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$git merge -s ours --no-commit neel/master</code>
+<p>3.Create a new directory called neel, and copy the Git history of the neel project into it.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$git read-tree --prefix=neel/ -u neel/master</code>
+<p>4.Commit the changes to keep them safe.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$git commit -m "Subtree merged in neel"</code>
+ 
+</body>
+</html>

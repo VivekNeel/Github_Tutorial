@@ -1,0 +1,7 @@
+https://training.github.com/resources/videos/
+https://training.github.com/classes/foundations/
+http://git-scm.com/docs
+http://git-scm.com/book/en/v2
+http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
+http://gitref.org/remotes/
+http://janrain.com/blog/introduction-to-android-theme-customization/

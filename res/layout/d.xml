@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#272d33"
+    android:gravity="top" >
+    
+  
+
+ <ScrollView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:clipToPadding="false" 
+     
+      >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Installing on linux"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+<TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/linux"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+
+ <WebView
+        android:id="@+id/fedora"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+ 
+ <TextView android:id="@+id/ubu" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/debian"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+           "
+<WebView
+        android:id="@+id/debian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="top"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Installing on windows"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+         <TextView android:id="@+id/win" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/window"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+
+         <Button
+             android:id="@+id/wind"
+             android:layout_width="350sp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="Download"
+              android:textColor="#4135e7"
+              android:background="#00000000" />
+         
+          <TextView
+             android:id="@+id/mac"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="top"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Installing on Mac"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+          
+            <TextView android:id="@+id/mact" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/mac"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+         
+          <Button
+             android:id="@+id/macd"
+             android:layout_width="350sp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="Download"
+              android:textColor="#4135e7"
+              
+              android:background="#00000000" />
+          
+        
+
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

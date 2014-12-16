@@ -1,0 +1,28 @@
+<html>
+<body bgcolor="#8eb7be">
+
+
+
+<p>So first we're going to create a new branch named 'change_class' and switch to it so your class renaming changes are isolated. We're going to change each instance of 'HelloWorld' to 'HiWorld'.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git checkout -b change_class</code>
+<p>and now i edit java.rb to change the class name from HelloWorld to HiWorld. And commit changes as</p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git commit -am 'changed the class name'</code>
+<p>So now we've committed the class renaming changes to the 'change_class' branch. To switch back to the 'master' branch the class name will revert to what it was before we switched branches. Here we can change something different (in this case the printed output) and at the same time rename the file from java.rb to c.rb.and type </p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git checkout master</code>
+<p>and </P>
+<code>$ git mv java.rb c.rb</p>
+<p>and</p>
+<code> git commit -am 'added from c'</code>
+
+<p>Now those changes are recorded in the 'master' branch.If u see the output u will Notice that the class name is back to 'HelloWorld', not 'HiWorld'. To incorporate the 'HiWorld' change we can just merge in the 'change_class' branch. However, the name of the file has changed since we branched, what will Git do?</p>
+<p>lets merge it</p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git merge change_class</code>
+<p>Check if the changes is merged or not by typing</p>
+<code>cat c.rb</code>
+<p>If u see the output , Notice that there are no merge conflicts and the file that had been renamed now has the 'HiWorld' class name change that was done in the other branch. Pretty cool.</p>
+</body>
+</html>

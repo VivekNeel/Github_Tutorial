@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="#ff272d33"
+    android:gravity="top" >
+    
+  
+
+ <ScrollView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:clipToPadding="false" 
+      >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About:"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+         
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/subtree"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+  
+        
+           <TextView
+             android:id="@+id/textiew2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/subtree2"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+           
+            <TextView
+             android:id="@+id/texiew1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Example:"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+            
+            <TextView
+             android:id="@+id/texti2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+              android:gravity="center"
+             android:text="Setting up the empty repository for a subtree merge"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+           
+        
+         
+        
+           <WebView
+        android:id="@+id/subtree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+           
+          
+               <WebView
+        android:id="@+id/subtrees"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+               
+               
+                <TextView
+             android:id="@+id/texew2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+              android:gravity="center"
+             android:text="Adding a new repository as a subtree"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+           
+        
+         
+        
+           <WebView
+        android:id="@+id/subtree2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+           
+           <TextView
+             android:id="@+id/tew2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Synchronizing with updates and changes"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+           
+        
+             <WebView
+        android:id="@+id/subtree3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+           
+          
+            
+           
+           
+
+        
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<html>
+<body bgcolor="#8eb7be">
+
+
+
+<h1 style="color:red" >Code:</h1>
+<code>$ git tag -a v1.0 </code> 
+<h1 style="color:red" >Explaination:</h1>
+<p>When you run the git tag -a command, Git will open your editor and have you write a tag message, just like you would write a commit message.</p>
+<p>Now, notice when we run git log --decorate, we can see our tag there.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git log --oneline --decorate --graph </code> 
+
+<p>If we do more commits, the tag will stay right at that commit, so we have that specific snapshot tagged forever and can always compare future snapshots to it.
+We don't have to tag the commit that we're on, however. If we forgot to tag a commit that we released, we can retroactively tag it by running the same command, but with the commit SHA at the end. For example, say we had released commit 558151a (several commits back) but forgot to tag it at the time. We can just tag it now:</p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git tag -a v0.9 558151a </code> 
+
+<p>Tags pointing to objects tracked from branch heads will be automatically downloaded when you fetch from a remote repository. However, tags that aren't reachable from branch heads will be skipped. If you want to make sure all tags are always included, you must include the --tags option. </p>
+
+<h1 style="color:red" >Code:</h1>
+<code>$  git fetch origin --tags </code> 
+<p>If you just want a single tag, use git fetch <remote> tag <tag-name>.
+
+By default, tags are not included when you push to a remote repository. In order to explicitly update these you must include the --tags option when using git push. </p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<body bgcolor="#8eb7be">
+
+<h1 style="color:red" >Code:</h1>
+<code>$git branch /* list your available branches/*</code>
+<h2 style="color:red" >Explanation:</h2>
+<p> Without arguments, git branch will list out the local branches that you have. The branch that you are currently working on will have a star next to it and if you have coloring turned on, will show the current branch in green. </p>
+<h3 style="color:red" >Code:</h3>
+<code>$git checkout "branch_name" /* Navigate to the particular branch */ </code>
+<h3 style="color:red" >Code:</h3>
+<code>$git branch -v /* see the last commit on each branch */ </code>
+<h3 style="color:red" >Code:</h3>
+<code>$git checkout -b (branchname) /* create and immediately switch to a branch */</code>
+<h4 style="color:red" >Explanation:</h4>
+<p>In most cases you will be wanting to switch to the branch immediately, so you can do work in it and then merging into a branch that only contains stable work (such as 'master') at a later point when the work in your new context branch is stable. You can do this pretty easily with git branch newbranch; git checkout newbranch, but Git gives you a shortcut for this: git checkout -b newbranch. </p>
+
+<h3 style="color:red" >Code:</h3>
+<code>$git branch -d (branchname) /* delete a branch */</code>
+<h3 style="color:red" >Code:</h3>
+<code>$git push (remote-name) :(branchname) /* delete a remote branch */</code>
+<h4 style="color:red" >Explanation:</h4>
+<p>When you're done with a remote branch, whether it's been merged into the remote master or you want to abandon it and sweep it under the rug, you'll issue a git push command with a specially placed colon symbol to remove that branch.</p>
+
+
+
+
+
+
+</body>
+</html>

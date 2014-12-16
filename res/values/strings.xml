@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Learn Github</string>
+    <string name="title_section1">Basics</string>
+    <string name="title_section2">Intermediate</string>
+    <string name="title_section3">Advance</string>
+    <string name="title_section4">Judge your learning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">vivek2neel@gmail.com</string>
+    <string name="subject">Type your queries/suggestions</string>
+    <string name="share">https://play.google.com/store/apps/details?id=com.vivek.github</string>
+
+    <string name="concept">Important key words in Git learning</string>
+       <string name="github">To understand GitHub, you must first have an understanding of Git. Git is an open-source version control system that was started by Linus Trovalds. Git is a command-line tool, but the center around which all things involving Git revolve – effectively, the Hub, is GitHub.com, where developers can store their projects and network with likeminded people.</string>
+<string name="button1">Repoistory</string>
+<string name="button2">Commit</string>
+<string name="button3">Branch</string>
+<string name="linux">If you want to install Git on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution. If you’re on Fedora for example, you can run the below command in terminal</string>
+<string name="debian">If you’re on a Debian-based distribution like Ubuntu, then you can run the below command in terminal</string>
+<string name="window">An easy way to get Git installed is by installing GitHub for Windows. The installer includes a command line version of Git as well as the GUI.</string>
+<string name="mac"> you can install it via a binary installer. An OSX Git installer is maintained and available for download at the Git website. Click the below button to download</string>
+<string name="set1">Git comes with a tool called git config that lets you get and set configuration variables that control all aspects of how Git looks and operates. These variables can be stored in three different places:</string>
+<string name="set2">The first thing you should do when you install Git is to set your user name and e-mail address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:</string>
+<string name="set3">Now that your identity is set up, you can configure the default text editor that will be used when Git needs you to type in a message. If not configured, Git uses your system’s default editor, which is generally Vim. If you want to use a different text editor, such as Emacs, you can do the following:</string>
+<string name="set4">If you want to check your settings , then you can run the below command</string>
+<string name="set5">You can also check what Git thinks a specific key’s value is by typing git config key . such as</string>
+<string name="set6">Just type the below command in terminal .it basically creates a new ssh key for the given email id</string>
+<string name="set7">And check finally whether everything works by typing</string>
+<string name="repo">A repository is a location where all the files for a particular project are stored, usually abbreviated to “repo.” Each project will have its own repo, and can be accessed by a unique URL.</string>
+<string name="repo1">Go to github.com and login into your account.Click Repositories tab and select new in the upper right corner.see the below image for reference</string>
+<string name="repo2">Type a name for your repository and an optional description.You can choose to to make the repository either public or private. Public repositories are visible to the public, while private repositories are only accessible to you, and people you share them with.After u finish everything select create repository</string>
+<string name="repo3">So we just made a space for your project to live online, but that’s not where you’ll be working on it. The bulk of your work is going to be done on your computer. So we need to actually mirror that repository we just made as a local directory.So type the below commands one by one</string>
+<string name="commit">This is the command that gives Git its power. When you commit, you are taking a “snapshot” of your repository at that point in time, giving you a checkpoint to which you can reevaluate or restore your project to any previous state.</string>
+<string name="commit2">After you make any sort of change, you use git commit in order to take a “snapshot” of the repository</string>
+<string name="branch">How do multiple people work on a project at the same time without Git getting them confused? Usually, they “branch off” of the main project with their own versions full of changes they themselves have made. After they’re done, it’s time to “merge” that branch back with the “master,” the main directory of the project.</string>
+<string name="branch2">Working with multiple collaborators and want to make changes on your own? This command will let you build a new branch, or timeline of commits, of changes and file additions that are completely your own. Your title goes after the command. If you wanted a new branch called “neel,” you should type </string>
+<string name="remote">Manage the set of repositories ("remotes") whose branches you track. </string>
+<string name="move">See the below command ,In the first form, it renames "source", which must exist and be either a file, symlink or directory, to "destination". In the second form, the last argument has to be an existing directory; the given sources will be moved into this directory.
+The index is updated after successful completion, but the change must still be committed.</string>
+<string name="remove">Remove files from the index, or from the working tree and the index. git rm will not remove a file from just your working directory. (There is no option to remove a file only from the working tree and yet keep it in the index; use /bin/rm if you want to do that.) The files being removed have to be identical to the tip of the branch, and no updates to their contents can be staged in the index, though that default behavior can be overridden with the -f option. When --cached is given, the staged content has to match either the tip of the branch or the file on disk, allowing the file to be removed from just the index.</string>  
+<string name="check">The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch. Think of it as a way to select which line of development you’re working on.</string>
+<string name="fork">Forking means creating a copy of the repository u want for making changes yourself.allows you to freely experiment with changes without affecting the original project. so how do we fork? simply click on the fork button in the right top corner as shown in the images below.</string>
+<string name="clone2">When you fork a project in order to propose changes to the original repository, you can configure Git to pull changes from the original, or upstream, repository into the local clone of your fork.</string>
+<string name="clone">You might fork a project in order to propose changes to the upstream or original repository. In this case its good practice to regularly sync your fork with the upstream repository.so here comes the use of cloning the repo.Right now, you have a fork of the repository, but you dont have the files in that repository on your computer. Lets create a clone of your fork locally on your computer. To clone a repo simply use the below command</string>
+<string name="add">In Git, you have to add file contents to your staging area before you can commit them. If the file is new, you can run git add to initially add the file to your staging area, but even if the file is already "tracked" - ie, it was in your last commit - you still need to call git add to add new modifications to your staging area. Lets see a few examples of this. </string>
+<string name="add2">It is also common to recursively add all files in a new project by specifying the current working directory like this:</string>
+<string name="status">As you saw in the git add section, in order to see what the status of your staging area is compared to the code in your working directory, you can run the git status command. Using the -s option will give you short output. Without that flag, the git status command will give you more context and hints. Here is the same status output with and without the -s. The short output looks like this: </string>
+<string name="diff">Diff use is to describe the changes that are staged or modified on disk but unstaged.</string>
+<string name="morebranch">As you have already aware of what the branch is and how to create a branch.Now we will see more about the branch like deleting/listing etc.</string>
+<string name="morecommit">In a situation when you have cloned the repo and would like to make changes locally and push it to github again.See the below commands and explanation . </string>
+<string name="morecommit2">Having a local repository as well as a remote (online) repository is the best of both worlds. You can tinker all you like without even being connected to the Internet, and at the same time showcase your finished work on GitHub for all to see.</string>
+<string name="morecommit3">Assume that you have a repo called java at https://github.com/username/java.git which you have clone earlier and committed changes.Now we want to push the changes. so we follow </string>
+<string name="undo">git reset is probably the most confusing command written by humans, but it can be very useful once you get the hang of it. There are three specific invocations of it that are generally helpful. </string>
+<string name="log">So far we have been committing snapshots of your project and switching between different isolated contexts, but what if we have forgotten how we have got to where we are? Or what if we want to know how one branch differs from another? Git provides a tool that shows you all the commit messages that have lead up to the snapshot you are currently on, which is called git log.</string>
+<string name="show">The git show command can show a Git object in a simple and human readable way. Normally you would use this to show the information about a tag or a commit.</string>
+<string name="shortlog">The git shortlog command is used to summarize the output of git log. It will take many of the same options that the git log command will but instead of listing out all of the commits it will present a summary of the commits grouped by author.</string>
+<string name="gitd">The git describe command is used to take anything that resolves to a commit and produces a string that is somewhat human-readable and will not change. It’s a way to get a description of a commit that is as unambiguous as a commit SHA but more understandable.</string>
+<string name="merge">Once you have work isolated in a branch, you will eventually want to incorporate it into your main branch. You can merge any branch into your current branch with the git merge command. Lets take as a simple example the java branch. If we create a branch and remove files in it and commit our java to that branch, it is isolated from our main (master, in this case) branch. To include those deletions in your master branch, you can just merge in the java branch. </string>
+<string name="merge2">Of course, this does not just work for simple file additions and deletions. Git will merge file modifications as well - in fact, its very good at it. For example, lets see what happens when we edit a file in one branch and in another branch we rename it and then edit it and then merge these branches together. Chaos, you say? Lets see an example.</string>
+<string name="conflicts">So, Git merges are magical, we never ever have to deal with merge conflicts again, right? Not quite. In situations where the same block of code is edited in different branches there is no way for a computer to figure it out, so its up to us. Lets see another example of changing the same line in two branches.lets see an example</string>
+<string name="conflicts2">Now we have committed a change to one line in our README file in a branch. Now lets change the same line in a different way back on our master branch.</string>
+<string name="conflicts3">Now is the fun part - we will merge the first branch into our master branch, causing a merge conflict.</string>
+<string name="conflicts4">You can see that Git inserts standard merge conflict markers, much like Subversion, into files when it gets a merge conflict. Now its up to us to resolve them. We will do it manually here, but check out git mergetool if you want Git to fire up a graphical mergetool (like kdiff3, emerge, p4merge, etc) instead. </string>
+<string name="conflicts5">A cool tip in doing merge conflict resolution in Git is that if you run git diff, it will show you both sides of the conflict and how you have resolved it as shown here. Now its time to mark the file as resolved. In Git we do that with git add - to tell Git the file has been resolved you have to stage it.</string>
+<string name="conflicts6">And now we have successfully resolved our merge conflict and committed the result.</string>
+<string name="tag"> If you get to a point that is important and you want to forever remember that specific commit snapshot, you can tag it with git tag. The tag command will basically put a permanent bookmark at a specific commit so you can use it to compare to other commits in the future. This is often done when you cut a release or ship something.
+Lets say we want to release our Hello World project as version 1.0. We can tag the last commit (HEAD) as v1.0 by running git tag -a v1.0. The -a means "make an annotated tag, which allows you to add a tag message to it, which is what you almost always want to do. Running this without the -a works too, but it doesn't record when it was tagged, who tagged it, or let you add a tag message. Its recommended you always create annotated tags.</string>
+<string name="fetch1">git fetch will synchronize you with another repo, pulling down any data that you do not have locally and giving you bookmarks to where each branch on that remote was when you synchronized. These are called "remote branches" and are identical to local branches except that Git will not allow you to check them out - however, you can merge from them, diff them to other branches, run history logs on them, etc. You do all of that stuff locally after you synchronize. </string>
+<string name="fetch2">Assuming you have a remote all set up and you want to pull in updates, you would first run git fetch [alias] to tell Git to fetch down all the data it has that you do not, then you would run git merge [alias]/[branch] to merge into your current branch anything new you see on the server (like if someone else has pushed in the meantime). So, if you were working on a Hello World project with several other people and wanted to bring in any changes that had been pushed since we last connected, we would do something like this:</string>
+<string name="fetch0">download new branches and data from a remote repository</string>
+<string name="pull0">fetch from a remote repo and try to merge into the current branch</string>
+<string name="pull1">To share the cool commits you have done with others, you need to push your changes to the remote repository. To do this, you run git push [alias] [branch] which will attempt to make your [branch] the new [branch] on the [alias] remote. Lets try it by initially pushing our master branch to the new github remote we created earlier.</string>
+<string name="pull2">Pretty easy. Now if someone clones that repository they will get exactly what we have committed and all of its history.
+What if you have a topic branch like the neel branch created earlier and want to share just that? You can just push that branch instead.</string>
+<string name="pull"> This command will basically run a git fetch immediately followed by a git merge of the branch on that remote that is tracked by whatever branch you are currently in. Running the fetch and merge commands separately involves less magic and less problems</string>
+<string name="cherry">Cherry picking in git means to choose a commit from one branch and apply it onto another.
+This is in contrast with other ways such as merge and rebase which normally applies many commits onto a another branch.</string>
+<string name="gerrit">Assume you would like to cherry pick a commit from slimrom gerrit(or any other source).To do so , go to slimrom gerrit first and open the commit which you want
+    to cherrypick.Cd to the Directory where u would like to cherry pick.Copy the command from the downloading tab as shown in the image below.Open terminal and paste that url. </string>
+<string name="github0">Assume you would like to cherry pick a commit from slimrom github (or any other source).To do so , go to slimrom github first and search for the repo.Select the repo and
+     click on commits tab as shown below.</string>
+<string name="github2">Now select the commits which you would like to
+    to cherrypick.Copy the commit ID as shown below</string>
+<string name="author">To change the name and/or email address recorded in existing commits, you must rewrite the entire history of your Git repository.Remember use this only in emergency</string>
+<string name="script">Changing the Git history of your repository using a script</string>
+<string name="sensitive">Some day you or a collaborator may accidentally commit sensitive data, such as a password or SSH key, into a Git repository. Although you can remove the file from the latest commit with git rm, the file will still exist in the repositorys history. Fortunately, there are other tools that can entirely remove unwanted files from a repositorys history. This will explain how to use  git filter-branch</string>
+<string name="rebase">The git rebase command allows you to easily change a series of commits, modifying the history of your repository. You can reorder, edit, or squash commits together.</string>
+<string name="rebase1">To rebase all the commits between another branch and the current branch state, you can enter the following command in your shell</string>
+<string name="rebase2">To rebase the last few commits in your current branch, you can enter the following command in your shell:</string>
+<string name="merger">When you perform a git rebase operation, you are typically moving commits around. Because of this, you might get into a situation where a merge conflict is introduced. That means that two of your commits modified the same line in the same file, and Git does not know which change to apply.</string>
+<string name="merger2">After you reorder and manipulate commits using git rebase, should a merge conflict occur, Git will tell you so with the following message printed to the terminal:</string>
+<string name="spit">You can turn a folder within a Git repository into a brand new repository.</string>
+<string name="spit2">When splitting a folder into a separate repository, you wont lose any of your Git history or changes.</string>
+<string name="subtree">If you need to manage multiple projects within a single repository, you can use a subtree merge to handle all the references.</string>
+<string name="subtree2">Typically, a subtree merge is used to contain a repository within a repository. The subrepository is stored in a folder of the main repository.</string>
+<string name="stage">Before we start knowing about git add we must know what staging means in github</string>
+<string name="stage2">To stage a file is simply to prepare it finely for a commit. Git, with its index allows you to commit only certain parts of the changes you have done since the last commit.</string>
+</resources>
+
+
+
+
+
+
+
+
+

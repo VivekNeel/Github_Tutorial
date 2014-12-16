@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272d33"
+    android:gravity="top" >
+    
+  
+
+ <ScrollView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:clipToPadding="false" 
+      >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About log"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/log"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+         <WebView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+         
+         <WebView
+        android:id="@+id/logs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git show"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:id="@+id/sh"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/show"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+           <TextView
+             android:id="@+id/text"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git shortlog"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:id="@+id/shs"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/shortlog"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+          
+            <TextView
+             android:id="@+id/sss"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git describe"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:id="@+id/shh"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/gitd"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+            
+           
+           
+            
+           
+           
+
+        
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

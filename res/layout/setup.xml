@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#272d33"
+    android:gravity="top" >
+    
+  
+
+ <ScrollView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:clipToPadding="false" 
+     android:layout_marginTop="0dp"
+     
+      >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Set up Git"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+<TextView
+             android:id="@+id/set1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/set1"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+
+ <TextView
+             android:id="@+id/id1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Setting up your Identity"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+
+<TextView android:id="@+id/ubu" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/set2"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+           
+<WebView
+        android:id="@+id/identity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="top"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Setting up your Editor"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+         <TextView android:id="@+id/win" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/set3"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+         
+         <WebView
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+         
+
+        
+         
+          <TextView
+             android:id="@+id/mac"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="top"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Check Your settings"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+          
+            <TextView android:id="@+id/mact" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/set4"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+         <WebView
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+            
+          
+          <TextView
+             android:id="@+id/keytt"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="top"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Specific Key Values"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+          
+            <TextView android:id="@+id/keyt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/set5"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+         <WebView
+        android:id="@+id/key"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+            
+         <TextView
+             android:id="@+id/ssht"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="Creating SSH public key"
+             android:textColor="#d65431"
+             android:textSize="20sp" />  
+             
+         <TextView android:id="@+id/sshtt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/set6"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+             
+         <WebView
+        android:id="@+id/ssh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+         
+          <TextView android:id="@+id/sshttt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/set7"
+       android:textColor="#25a26e"
+       android:textSize="20sp"
+       />
+              <WebView
+        android:id="@+id/ssh2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+        
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

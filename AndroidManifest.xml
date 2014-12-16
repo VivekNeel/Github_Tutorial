@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vivek.github"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity" >
+            
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+           
+        </activity>
+        <activity android:name=".About_me"
+        ></activity>
+        <activity android:name=".Basic"></activity>
+      <activity android:name=".Advance"></activity>
+        <activity android:name=".intermediate"
+            android:theme="@style/AppBaseTheme"></activity>
+        <activity android:name=".Repo"></activity>
+        <activity android:name="com.vivek.github.basic.Git"></activity>
+         <activity android:name="com.vivek.github.basic.Repo"></activity>
+        <activity android:name="com.vivek.github.basic.Install"></activity>
+         <activity android:name="com.vivek.github.basic.SetUp"></activity>
+            <activity android:name="com.vivek.github.basic.Commit"></activity>
+          <activity android:name="com.vivek.github.basic.Branch"></activity>
+          <activity android:name="com.vivek.github.basic.Remote"></activity>
+          <activity android:name="com.vivek.github.basic.Move"></activity>
+           <activity android:name="com.vivek.github.basic.Remove"></activity>
+            <activity android:name="com.vivek.github.basic.Check"></activity>
+            <activity android:name="com.vivek.github.Intermediate.Forking"></activity>
+            <activity android:name="com.vivek.github.Intermediate.Diff"></activity>
+         <activity android:name="com.vivek.github.Intermediate.BranchMore"></activity>
+       <activity android:name="com.vivek.github.Intermediate.Commiting"></activity>
+        <activity android:name="com.vivek.github.Intermediate.Undo"></activity>
+       <activity android:name="com.vivek.github.Intermediate.Log"></activity>
+        <activity android:name="com.vivek.github.Intermediate.Merging"></activity>
+       
+           <activity android:name="com.vivek.github.Intermediate.Conflicts"></activity>
+       <activity android:name="com.vivek.github.Intermediate.Tag"></activity>
+        <activity android:name="com.vivek.github.Intermediate.Fetch"></activity>
+          <activity android:name="com.vivek.github.advance.Cherrypick"></activity>
+       
+        <activity android:name="com.vivek.github.advance.Github"></activity>
+       <activity android:name="com.vivek.github.advance.Author"></activity>
+       <activity android:name="com.vivek.github.advance.Sensitive"></activity>
+         
+          <activity android:name="com.vivek.github.advance.Rebase"></activity>
+       <activity android:name="com.vivek.github.advance.MergeConflicts"></activity>
+       <activity android:name="com.vivek.github.advance.Spitting"></activity>
+          <activity android:name="com.vivek.github.advance.Subtree"></activity>
+      
+            <activity android:name="com.vivek.github.Quiz.Quiz"></activity>
+      <activity android:name="com.vivek.github.Quiz.Result"></activity>
+      <activity android:name="com.vivek.github.Quiz.Question"></activity>
+      <activity android:name="com.vivek.github.Quiz.DatabaseHelper"></activity>
+     
+          
+          
+          
+          
+          
+          <activity android:name=".Splash">
+              
+               <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+          </activity>
+          
+       
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        config="layout-ldltr-sw320dp-w320dp-h533dp-normal-long-port-car-notnight-hdpi-finger-keyssoft-nokeys-navexposed-trackball-800x480-v21"
+        device="3.7&quot; WVGA (Nexus One)"
+        devicestate="Portrait"
+        target="Android 5.0"
+        theme="@android:style/Theme.Material" >
+    </preview>
+    <preview
+        name="Config1"
+        activity="com.example.kk.b"
+        config="layout-ldltr-sw320dp-w320dp-h533dp-normal-long-port-car-notnight-hdpi-finger-keyssoft-nokeys-navhidden-trackball-800x480-v21"
+        device="Nexus One"
+        devicestate="Portrait"
+        target="Android 5.0"
+        theme="@android:style/Theme.Material" >
+    </preview>
+
+</previews>

@@ -1,0 +1,33 @@
+<html>
+<body bgcolor="#8eb7be">
+<h1 style="color:red" >Code:</h1>
+<code>$git remote   /* list your remote aliases */</code>
+
+<p>Without any arguments, Git will simply show you the remote repository aliases that it has stored. By default, if you cloned the project (as opposed to creating a new one locally), Git will automatically add the URL of the repository that you cloned from under the name 'origin'. If you run the command with the -v option, you can see the actual URL for each alias.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$git remote -v  </code>
+
+<p>output:</p>
+<h1 style="color:red" >Code:</h1>
+<code>origin git@github.com:github/git-reference.git (fetch) , 
+origin	git@github.com:github/git-reference.git (push) </code>
+
+<p>You see the URL there twice because Git allows you to have different push and fetch URLs for each remote in case you want to use different protocols for reads and writes.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$git remote add /* add a new remote repository of your project */</code>
+
+<p>If you want to share a locally created repository, or you want to take contributions from someone else's repository - if you want to interact in any way with a new repository, it's generally easiest to add it as a remote. You do that by running git remote add [alias] [url]. That adds [url] under a local remote named [alias].
+
+For example, if we want to share our  program with the world, we can create a new repository on a server (Using GitHub as an example), which should give you a URL, for eg. "git@github.com:neel/hw.git". To add that to our project so we can push to it and fetch updates from it we would do this:</p>
+<h1 style="color:red" >Code:</h1>
+<code>$ git remote add hey  git@github.com:neel/hw.git</code>
+<p>and </p>
+<h1 style="color:red" >Code:</h1>
+<code>$git remote -v</code>
+<p>see the changes in output , notice that we have added in new origin called hey ?</p>
+<h1 style="color:red" >Code:</h1>
+<code>hey	git@github.com:schacon/hw.git (fetch) , 
+hey	git@github.com:schacon/hw.git (push)</code>
+
+</body>
+</html>

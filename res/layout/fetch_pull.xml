@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff272d33"
+    android:gravity="top" >
+    
+  
+
+ <ScrollView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:clipToPadding="false" 
+      >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git fetch"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/fetch0"
+             android:gravity="center"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:id="@+id/textView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/fetch1"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+          
+           <TextView
+             android:id="@+id/tetView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/fetch2"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+          
+            <WebView
+        android:id="@+id/fetch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+              
+            <WebView
+        android:id="@+id/fetchs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+            
+            
+           
+
+         <TextView
+             android:id="@+id/textVie"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git pull"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+        <TextView
+             android:id="@+id/ew2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/pull0"
+             android:gravity="center"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:id="@+id/tew"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/pull"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+          
+            <TextView
+             android:id="@+id/ie"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git push"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+        <TextView
+             android:id="@+id/p"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/pull1"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+        
+         <WebView
+        android:id="@+id/pull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+            
+         
+          <TextView
+             android:id="@+id/ou"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/pull2"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+          
+          <WebView
+        android:id="@+id/pull2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+          
+           
+            
+           
+         
+         
+         
+          
+           
+            
+           
+           
+            
+           
+           
+
+        
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

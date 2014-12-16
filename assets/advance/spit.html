@@ -1,0 +1,17 @@
+<html>
+<body bgcolor="#8eb7be">
+<p>1.Open terminal</p>
+<p>2.Change the current working directory to your local project.</p>
+<p>3.Run git filter-branch, making sure to include the name of the folder you want to separate.</p>
+<h1 style="color:red" >Code:</h1>
+<code>$git filter-branch --prune-empty --subdirectory-filter \
+ YOUR_FOLDER_NAME master</code>
+ 
+ <p>The repository now contains all the files that were in your subfolder. Note that although all of your previous files have been removed, they still exist within the Git history. You can choose to push your repository to a new remote, or act upon them in any other way you would normally.</p>
+
+<h1 style="color:red" >Code:</h1>
+<code>$git push my-new-repo -f .</code>
+
+
+</body>
+</html>

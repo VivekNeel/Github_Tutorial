@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff272d33"
+    android:gravity="top" >
+    
+  
+
+ <ScrollView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:clipToPadding="false" 
+      >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:orientation="vertical" >
+         
+         
+         <TextView
+             android:id="@+id/stage"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/stage"
+             android:gravity="center"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+         
+         <TextView
+             android:id="@+id/st"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About Staging"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:id="@+id/stag"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/stage2"
+             android:gravity="center"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git add"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/add"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+           <WebView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+           
+            <TextView
+             android:id="@+id/a"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/add2"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+            
+            <WebView
+        android:id="@+id/add2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git status"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+           <TextView
+             android:id="@+id/as"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/status"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+         
+         
+          
+           <WebView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+             <WebView
+        android:id="@+id/statuss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+             
+              <TextView
+             android:id="@+id/dif"
+             android:layout_width="match_parent"
+             android:layout_height="75dp"
+             android:layout_marginBottom="20dp"
+             android:gravity="center"
+             android:text="About git diff"
+             android:textColor="#d65431"
+             android:textSize="20sp" />
+         
+           <TextView
+             android:id="@+id/diffs"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:text="@string/diff"
+             android:textColor="#25a26e"
+             android:textSize="20sp" />
+           <WebView
+        android:id="@+id/diff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp" />
+             
+            
+           
+           
+            
+           
+           
+
+        
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>
