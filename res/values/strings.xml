@@ -16,7 +16,7 @@
 
     <string name="concept">Important key words in Git learning</string>
        <string name="github">To understand GitHub, you must first have an understanding of Git. Git is an open-source version control system that was started by Linus Trovalds. Git is a command-line tool, but the center around which all things involving Git revolve – effectively, the Hub, is GitHub.com, where developers can store their projects and network with likeminded people.</string>
-<string name="button1">Repoistory</string>
+<string name="button1">Repository</string>
 <string name="button2">Commit</string>
 <string name="button3">Branch</string>
 <string name="linux">If you want to install Git on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution. If you’re on Fedora for example, you can run the below command in terminal</string>
